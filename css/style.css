@@ -1,1 +1,59 @@
+img{
+    max-width: 100%;
+    display: block;     
+}
+
+
+
+/*******SECTION PICTURE START*********/
+
+.picture figure img{
+    width: 100%;
+    max-width: none;
+}
+
+.picture figure{
+    position: relative;
+}
+
+.picture figure .name{
+    position: absolute;
+    bottom: 10px;
+    right: 120px;
+}
+
+.picture figure .name h2,
+.picture figure .name h5{
+     color: #fff;
+}
+
+.picture figure .name h5{
+    font-weight: 500;
+}
+
+
+
+/*******SECTION PICTURE END*********/
+
+
+/******SECTION INFO******/
+
+.info{
+    background-color: #38a4dd;
+    color: #fff;
+}
+
+.info .fa {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
 
