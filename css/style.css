@@ -1,9 +1,12 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
 img{
     max-width: 100%;
     display: block;     
 }
-
-
 
 /*******SECTION PICTURE START*********/
 
@@ -18,17 +21,17 @@ img{
 
 .picture figure .name{
     position: absolute;
-    bottom: 10px;
-    right: 120px;
+    bottom: 5%;
+    right: 30%;
 }
 
 .picture figure .name h2,
-.picture figure .name h5{
+.picture figure .name h4{
      color: #fff;
 }
 
-.picture figure .name h5{
-    font-weight: 500;
+.picture figure .name h4{
+    font-weight: 400;
 }
 
 
@@ -46,6 +49,65 @@ img{
 .info .fa {
     font-size: 30px;
 }
+
+
+
+
+.bottom{
+    border-bottom: 1px solid blue;
+    margin-bottom: 14px;
+}
+
+/*****USER******/
+
+.user p{
+    line-height: 25px;
+}
+
+/*****PHONE******/
+
+
+
+
+/*****EMAIL******/
+
+
+
+
+/*****ADDRESS******/
+
+
+
+
+
+/*****SKILLS******/
+
+.skill{
+    position: relative;
+    height: 5px;
+    border-radius: 3px;
+    background: #ccc;
+    
+}
+.skill .achievement{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white;
+    width: 60%;
+    height: 5px;
+    border-radius: 3px;
+}
+.skill .achievement span{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    right: -7px;
+    top: -4.5px;
+}
+
 
 
 
