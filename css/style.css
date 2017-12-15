@@ -132,16 +132,38 @@ img{
 }
 
 
+/********EDUCATION************/
+
+.education{
+  color: #737373;  
+}
 
 
+/**********INTERESTS******************/
 
+.interests{
+  color: #737373;  
+}
 
+.interests .fa{
+    font-size: 30px; 
+}
 
+.interests img{
+    width: 40%;
+    height: 40%;
+}
 
+/************SOCIAL***********************/
 
+.social{
+    padding: 20px;
+}
 
-
-
+.social a{
+    text-decoration: none;
+    color: #38a4dd;
+}
 
 
 
