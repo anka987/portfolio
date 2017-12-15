@@ -25,8 +25,8 @@ img{
     right: 30%;
 }
 
-.picture figure .name h2,
-.picture figure .name h4{
+.picture figure .name h1,
+.picture figure .name h3{
      color: #fff;
 }
 
@@ -42,7 +42,6 @@ img{
 /******SECTION INFO******/
 
 .info{
-    background-color: #38a4dd;
     color: #fff;
 }
 
@@ -53,10 +52,7 @@ img{
 
 
 
-.bottom{
-    border-bottom: 1px solid blue;
-    margin-bottom: 14px;
-}
+
 
 /*****USER******/
 
@@ -107,6 +103,62 @@ img{
     right: -7px;
     top: -4.5px;
 }
+
+/*****EXPERIENCE******/
+
+
+
+
+/******WORK-TITLE***************/
+
+.experience{
+  color: #737373;  
+}
+
+.work-title .fa{
+    font-size: 30px; 
+}
+
+
+
+
+
+
+/*********WORK***********/
+
+.work:last-of-type p {
+    border-bottom: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
