@@ -1,3 +1,5 @@
+/************GENERAL****************/
+
 html{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -7,6 +9,8 @@ img{
     max-width: 100%;
     display: block;     
 }
+
+/*************INDEX PAGE START***************/
 
 /*******SECTION PICTURE START*********/
 
@@ -149,15 +153,22 @@ img{
     font-size: 30px; 
 }
 
+.interests .photos{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .interests img{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
 }
 
 /************SOCIAL***********************/
 
 .social{
-    padding: 20px;
+    padding: 10px;
 }
 
 .social a{
@@ -165,20 +176,24 @@ img{
     color: #38a4dd;
 }
 
+/*INDEX PAGE END*/
+
+/*COVER-LETTER PAGE START*/
+
+/**SECTION COVER-LETTER START**/
 
 
 
+/**SECTION COVER-LETTER END**/
+
+/**SECTION REFERENCES START**/
 
 
 
+/**SECTION REFERENCES END**/
 
 
-
-
-
-
-
-
+/*COVER-LETTER PAGE END*/
 
 
 
