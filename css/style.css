@@ -153,16 +153,9 @@ img{
     font-size: 30px; 
 }
 
-.interests .photos{
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .interests img{
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
 }
 
 /************SOCIAL***********************/
@@ -182,12 +175,35 @@ img{
 
 /**SECTION COVER-LETTER START**/
 
+.cover-letter{
+    color: #636363;
+}
 
+.cover-letter .date{
+    font-weight: bold;
+}
+
+.cover-letter .signature{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
 
 /**SECTION COVER-LETTER END**/
 
 /**SECTION REFERENCES START**/
 
+.references{
+    color: #727272;
+}
+
+.references .fa{
+    font-size: 30px;
+    color: #727272;
+}
+
+.references h6{
+    color: #38a4dd;
+}
 
 
 /**SECTION REFERENCES END**/
