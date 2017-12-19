@@ -184,8 +184,9 @@ img{
 }
 
 .interests img{
-        max-height: 70% !important;
-    }
+    margin: auto;
+    max-height: 60px;
+}
 
 /************SOCIAL***********************/
 
@@ -226,7 +227,7 @@ img{
 
 .references{
     color: #727272;
-    padding: 21px;
+    padding: 15px;
 }
 
 .references .fa{
@@ -252,11 +253,8 @@ img{
 /*3. PAGE START*/
 /*SECTION REDESIGN START*/
 
-.redesign .brand1{
-    background-color: #f15c5b;
-}
 
-.redesign .brand1 h3 a{
+.redesign .article-header h3 a{
     text-decoration: none;
     color: #fff;
 }
@@ -268,52 +266,6 @@ img{
 .redesign .description p{
     line-height: 25px;
     color: #737373;
-}
-
-.redesign .brand2{
-    background-color: #555157;
-}
-
-.redesign .brand2 h3 a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.redesign .brand3{
-    background-color: #6a7484;
-}
-
-.redesign .brand3 h3 a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.redesign .brand4{
-    background-color: #1cbec8;
-}
-
-.redesign .brand4 h3 a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.redesign .brand5{
-    background-color: #f4be18;
-}
-
-.redesign .brand5 h3 a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.redesign .card{
-    border: none;
-    background-color: transparent;
-}
-
-.card-columns{
-    -webkit-column-count: 1;
-    column-count: 1;
 }
 
 /*SECTION REDESIGN END*/
