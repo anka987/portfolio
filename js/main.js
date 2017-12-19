@@ -1,5 +1,20 @@
 $(document).ready(function () {
     
+    // toggle menu
+    
+    $('.toggle-menu').click(function(){
+        $('.menu-overlay').fadeIn();
+        $('.menu1').addClass('active');
+        $('body').addClass('inactive');
+    });
+    
+    $('.menu-overlay').click(function(){
+        $(this).fadeOut();
+        $('.menu1').removeClass('active');
+        $('body').removeClass('inactive');
+    });
+    
+    
     
 });
 

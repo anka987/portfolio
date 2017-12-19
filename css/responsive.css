@@ -1,5 +1,16 @@
+@media(min-width:400px){
+
+     .picture .name h1{
+        font-size: 50px;
+    }
+
+}
 
 @media(min-width:576px){
+    
+    .picture .name h1{
+        font-size: 70px;
+    }
     
     .social{
         padding: 20px;
@@ -38,6 +49,10 @@
     .comments img{
         width: 103px !important;
         height: 103px !important;
+    }
+    
+    .picture .name h1{
+        font-size: 50px;
     }
 
 }
