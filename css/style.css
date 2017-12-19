@@ -10,9 +10,9 @@ img{
     display: block;     
 }
 
-/*************INDEX PAGE START***************/
+/*1. PAGE START*/
+/**SECTION PICTURE START**/
 
-/*******SECTION PICTURE START*********/
 
 .picture figure img{
     width: 100%;
@@ -29,21 +29,23 @@ img{
     right: 30%;
 }
 
-.picture figure .name h1,
+.picture .name h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .picture figure .name h3{
-     color: #fff;
+    color: #fff;
 }
 
 .picture figure .name h4{
     font-weight: 400;
 }
 
+/**SECTION PICTURE END**/
 
 
-/*******SECTION PICTURE END*********/
-
-
-/******SECTION INFO******/
+/**SECTION INFO**/
 
 .info{
     color: #fff;
@@ -51,43 +53,74 @@ img{
 
 .info .fa {
     font-size: 30px;
+    margin-top: 20px;
+}
+
+.info .col-9{
+    padding: 20px 0;
+    padding-right: 20px;
+}
+
+.info article:first-of-type .col-9{
+    padding-top: 0 !important;
 }
 
 
+/*** ARTICLE USER***/
 
+.info .user .col-9{
+    border-bottom: 1px solid #fff;
+}
 
-
-
-/*****USER******/
+.info .user p{
+    margin: 0 !important;
+}
 
 .user p{
     line-height: 25px;
 }
 
-/*****PHONE******/
+/*** ARTICLE PHONE***/
+
+.info .phone .col-9{
+    border-bottom: 1px solid #fff;
+}
+
+.info .phone p:last-of-type,
+.info .email p:last-of-type,
+.info .address p:last-of-type{
+    margin-bottom: 0;
+}
 
 
+/***ARTICLE EMAIL***/
+
+.info .email .col-9{
+    border-bottom: 1px solid #fff;
+}
+
+.info .email span a{
+   text-decoration: none;
+   color: #fff;
+}
 
 
-/*****EMAIL******/
+/***ARTICLE ADDRESS***/
 
 
+.info .address .col-9{
+    border-bottom: 1px solid #fff;
+}
 
 
-/*****ADDRESS******/
-
-
-
-
-
-/*****SKILLS******/
+/***ARTICLE SKILLS***/
 
 .skill{
     position: relative;
     height: 5px;
     border-radius: 3px;
     background: #ccc;
-    
+
 }
 .skill .achievement{
     position: absolute;
@@ -107,6 +140,7 @@ img{
     right: -7px;
     top: -4.5px;
 }
+/*-----------------------------------------------*/
 
 /*****EXPERIENCE******/
 
@@ -116,7 +150,7 @@ img{
 /******WORK-TITLE***************/
 
 .experience{
-  color: #737373;  
+    color: #737373;  
 }
 
 .work-title .fa{
@@ -124,29 +158,25 @@ img{
 }
 
 
-
-
-
-
 /*********WORK***********/
 
 .work:last-of-type p {
     border-bottom: none;
-    
+
 }
 
 
 /********EDUCATION************/
 
 .education{
-  color: #737373;  
+    color: #737373;  
 }
 
 
 /**********INTERESTS******************/
 
 .interests{
-  color: #737373;  
+    color: #737373;  
 }
 
 .interests .fa{
@@ -154,9 +184,8 @@ img{
 }
 
 .interests img{
-    width: 50%;
-    height: 50%;
-}
+        max-height: 70% !important;
+    }
 
 /************SOCIAL***********************/
 
@@ -169,10 +198,13 @@ img{
     color: #38a4dd;
 }
 
-/*INDEX PAGE END*/
+/*1. PAGE END*/
 
-/*COVER-LETTER PAGE START*/
 
+
+
+
+/*2. PAGE START*/
 /**SECTION COVER-LETTER START**/
 
 .cover-letter{
@@ -194,6 +226,7 @@ img{
 
 .references{
     color: #727272;
+    padding: 21px;
 }
 
 .references .fa{
@@ -205,22 +238,122 @@ img{
     color: #38a4dd;
 }
 
+.references .reference1 .col-10{
+    border-bottom: 1px solid #000; 
+}
+
 
 /**SECTION REFERENCES END**/
-
-
-/*COVER-LETTER PAGE END*/
-
+/*2. PAGE END*/
 
 
 
 
+/*3. PAGE START*/
+/*SECTION REDESIGN START*/
+
+.redesign .brand1{
+    background-color: #f15c5b;
+}
+
+.redesign .brand1 h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redesign .description{
+    background-color: #fafbfc;
+}
+
+.redesign .description p{
+    line-height: 25px;
+    color: #737373;
+}
+
+.redesign .brand2{
+    background-color: #555157;
+}
+
+.redesign .brand2 h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redesign .brand3{
+    background-color: #6a7484;
+}
+
+.redesign .brand3 h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redesign .brand4{
+    background-color: #1cbec8;
+}
+
+.redesign .brand4 h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redesign .brand5{
+    background-color: #f4be18;
+}
+
+.redesign .brand5 h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redesign .card{
+    border: none;
+    background-color: transparent;
+}
+
+.card-columns{
+    -webkit-column-count: 1;
+    column-count: 1;
+}
+
+/*SECTION REDESIGN END*/
+/*3. PAGE END*/
 
 
 
 
+/*4. PAGE START*/
+/**SECTION PROJECT START**/
+
+.project,
+.comments{
+    color: #737373;
+}
+
+.project figure img{
+    display: block;
+}
+
+.project .example1{
+    background-color: #f15c5b;
+}
+
+.project .example-description{
+    background-color: #fafbfc;
+    line-height: 25px;
+}
+
+/**SECTION PROJECT END**/
 
 
+/**SECTION COMMENTS START**/
 
+.comments img{
+    width: 32px !important;
+    height: 32px !important;
+}
+
+/**SECTION COMMENTS END**/
+/*4. PAGE END*/
 
 
