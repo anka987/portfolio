@@ -12,7 +12,7 @@ img{
 
 /****MENU*****/
 
-.menu{
+.vertical{
     position: relative;
 }
 
@@ -53,7 +53,7 @@ img{
     display: none;
 }
 
-.menu1{
+.menu{
     position: fixed;
     left: -120%;
     top: 0;
@@ -61,7 +61,7 @@ img{
     transition: 1s ease;
 }
 
-.menu1.active{
+.menu.active{
     left: 0px;
 }
 
@@ -72,7 +72,7 @@ img{
     min-width: 200px;
 }
 
-.menu1 .side-menu a{
+.menu .side-menu a{
     display: block;
     color: #fff;
     font-size: 20px;
@@ -168,8 +168,8 @@ img{
 }
 
 .info .email span a{
-   text-decoration: none;
-   color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -213,13 +213,28 @@ img{
 /*****EXPERIENCE******/
 
 
+.experience{
+    color: #737373;
+    padding: 15px;
+}
+
+.experience .work .col-10{
+    border-bottom: 1px solid #000;
+}
+
+.experience .work:last-of-type .col-10{
+    border-bottom: none;
+}
+
+.experience .work h5{
+    padding-top: 14px;
+}
+
 
 
 /******WORK-TITLE***************/
 
-.experience{
-    color: #737373;  
-}
+
 
 .work-title .fa{
     font-size: 30px; 
@@ -237,7 +252,20 @@ img{
 /********EDUCATION************/
 
 .education{
-    color: #737373;  
+    color: #737373;
+    padding: 15px;
+}
+
+.education .work h5{
+    padding-top: 14px;
+}
+
+.education .work .col-10{
+    border-bottom: 1px solid #000;
+}
+
+.education .work:last-of-type .col-10{
+    border-bottom: none;
 }
 
 
@@ -245,6 +273,7 @@ img{
 
 .interests{
     color: #737373;  
+    padding: 15px;
 }
 
 .interests .fa{
@@ -253,13 +282,13 @@ img{
 
 .interests img{
     margin: auto;
-    max-height: 60px;
+    max-height: 40px;
 }
 
 /************SOCIAL***********************/
 
 .social{
-    padding: 10px;
+    padding: 15px;
 }
 
 .social a{

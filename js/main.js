@@ -4,13 +4,13 @@ $(document).ready(function () {
     
     $('.toggle-menu').click(function(){
         $('.menu-overlay').fadeIn();
-        $('.menu1').addClass('active');
+        $('.menu').addClass('active');
         $('body').addClass('inactive');
     });
     
     $('.menu-overlay').click(function(){
         $(this).fadeOut();
-        $('.menu1').removeClass('active');
+        $('.menu').removeClass('active');
         $('body').removeClass('inactive');
     });
     

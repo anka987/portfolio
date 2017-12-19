@@ -1,39 +1,40 @@
 @media(min-width:400px){
 
-     .picture .name h1{
+    .picture .name h1{
         font-size: 50px;
     }
 
 }
 
 @media(min-width:576px){
-    
+
     .picture .name h1{
         font-size: 70px;
     }
-    
-    .social{
-        padding: 20px;
+
+    .interests img{
+        margin: auto;
+        max-height: 60px;
     }
 
     .comments img{
         width: 64px !important;
         height: 64px !important;
     }
-    
+
 }
 
 @media(min-width:768px){
-    
+
     .cover-letter .signature{
         font-size: 40px;
     }
-    
+
     .card-columns{
         -webkit-column-count: 2;
         column-count: 2;
     }
-    
+
     .interests img{
         margin: auto;
         max-height: 80px;
@@ -45,12 +46,12 @@
 
 
 @media(min-width:992px){
-    
+
     .comments img{
         width: 103px !important;
         height: 103px !important;
     }
-    
+
     .picture .name h1{
         font-size: 50px;
     }
