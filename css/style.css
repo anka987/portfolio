@@ -10,7 +10,7 @@ img{
     display: block;     
 }
 
-/****MENU*****/
+/****VERTICAL MENU START*****/
 
 .vertical{
     position: relative;
@@ -78,9 +78,12 @@ img{
     font-size: 20px;
     text-transform: uppercase;
 }
+/****VERTICAL MENU END*****/
+
+
+
 /*1. PAGE START*/
 /**SECTION PICTURE START**/
-
 
 .picture figure img{
     width: 100%;
@@ -113,7 +116,7 @@ img{
 /**SECTION PICTURE END**/
 
 
-/**SECTION INFO**/
+/**SECTION INFO START**/
 
 .info{
     color: #fff;
@@ -125,16 +128,15 @@ img{
 }
 
 .info .col-9{
-    padding: 20px 0;
-    padding-right: 20px;
+    padding: 15px 0;
+    padding-right: 15px;
 }
 
 .info article:first-of-type .col-9{
     padding-top: 0 !important;
 }
 
-
-/*** ARTICLE USER***/
+/***ARTICLE USER***/
 
 .info .user .col-9{
     border-bottom: 1px solid #fff;
@@ -148,7 +150,7 @@ img{
     line-height: 25px;
 }
 
-/*** ARTICLE PHONE***/
+/***ARTICLE PHONE***/
 
 .info .phone .col-9{
     border-bottom: 1px solid #fff;
@@ -159,7 +161,6 @@ img{
 .info .address p:last-of-type{
     margin-bottom: 0;
 }
-
 
 /***ARTICLE EMAIL***/
 
@@ -172,14 +173,11 @@ img{
     color: #fff;
 }
 
-
 /***ARTICLE ADDRESS***/
-
 
 .info .address .col-9{
     border-bottom: 1px solid #fff;
 }
-
 
 /***ARTICLE SKILLS***/
 
@@ -208,10 +206,10 @@ img{
     right: -7px;
     top: -4.5px;
 }
-/*-----------------------------------------------*/
+/**SECTION INFO END**/
 
-/*****EXPERIENCE******/
 
+/** SECTION EXPERIENCE START**/
 
 .experience{
     color: #737373;
@@ -230,26 +228,22 @@ img{
     padding-top: 14px;
 }
 
-
-
-/******WORK-TITLE***************/
-
-
+/*** ARTICLE WORK-TITLE***/
 
 .work-title .fa{
     font-size: 30px; 
 }
 
-
-/*********WORK***********/
+/***ARTICLE WORK***/
 
 .work:last-of-type p {
     border-bottom: none;
-
 }
 
+/** SECTION EXPERIENCE END**/
 
-/********EDUCATION************/
+
+/** SECTION EDUCATION START**/
 
 .education{
     color: #737373;
@@ -268,8 +262,10 @@ img{
     border-bottom: none;
 }
 
+/** SECTION EDUCATION END**/
 
-/**********INTERESTS******************/
+
+/** SECTION INTERESTS START**/
 
 .interests{
     color: #737373;  
@@ -285,7 +281,10 @@ img{
     max-height: 40px;
 }
 
-/************SOCIAL***********************/
+/** SECTION INTERESTS END**/
+
+
+/** SECTION SOCIAL START**/
 
 .social{
     padding: 15px;
@@ -296,8 +295,8 @@ img{
     color: #38a4dd;
 }
 
+/** SECTION SOCIAL END**/
 /*1. PAGE END*/
-
 
 
 
@@ -307,6 +306,7 @@ img{
 
 .cover-letter{
     color: #636363;
+    padding: 15px;
 }
 
 .cover-letter .date{
@@ -319,6 +319,8 @@ img{
 }
 
 /**SECTION COVER-LETTER END**/
+
+/*------------------------------------------------------------------------------------*/
 
 /**SECTION REFERENCES START**/
 
