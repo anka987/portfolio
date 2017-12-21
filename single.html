@@ -10,6 +10,9 @@
         <meta name="keywords" content="HTML, CSS, Bootstrap 4, JavaScript, jQuery, portfolio">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Single</title>
+        
+        <!--FAV ICON-->
+        <link rel="icon" href="favicon.ico" type="image/x-icon"> <!--Bitno je za SEO optimizaciju-->
 
         <!--FONTS-->
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -28,34 +31,45 @@
             <![endif]-->
     </head>
 
-    <body style="background-color: #e3e3e3">
+   <body style="background-color: #e3e3e3">
+        <!--VERTICAL MENU START-->
         <nav class="menu">
             <ul class="side-menu list-unstyled">
                 <li>
-                    <a href="#">Naslovna</a>
+                    <a href="index.html">Cv Resume</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="cover-letter.html">Cover Letter</a>
                 </li>
                 <li>
-                    <a href="#">Letter</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Single</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="menu-overlay">
             
         </div>
+        <!--VERTICAL MENU END-->
+        
         <div class="container">
             <!--MAIN START-->
             <main>
+                <!--DIV CLASS="ROW" START-->
                 <div class="row">
-                    <div class="col-lg-5 col-xl-4 pr-0 pl-0 mb-4 mb-lg-0 vertical"> 
+                    <div class="col-lg-5 col-xl-4 pr-0 pl-0 mb-4 mb-lg-0 vertical"> <!--klasa vertical je za vertikalni meni-->
                         
+                        <!--TOGGLE MENU START-->
                         <div class="toggle-menu">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </div>
+                        </div><!--TOGGLE MENU END-->
 
                         <!--SECTION PICTURE START-->
                         <section class="picture">
@@ -71,7 +85,7 @@
                         <!--SECTION INFO START-->
                         <section class="info pt-4" style="background-color: #38a4dd">
                             <!--ARTICLE USER START-->
-                            <article class="user">
+                            <article class="user animation" data-animation="slideLeft">
                                 <div class="row no-gutters">
                                     <div class="col-3 text-center">
                                         <span class="fa fa-user-o"></span>
@@ -87,7 +101,7 @@
                                 </div>
                             </article><!--ARTICLE USER END-->
                             <!--ARTICLE PHONE START-->
-                            <article class="phone">
+                            <article class="phone animation" data-animation="slideRight">
                                 <div class="row no-gutters">
                                     <div class="col-3 text-center">
                                         <span class="fa fa-phone"></span>
@@ -101,25 +115,25 @@
                                 </div>
                             </article><!--ARTICLE PHONE END-->
                             <!--ARTICLE EMAIL START-->
-                            <article class="email">
+                            <article class="email animation" data-animation="slideLeft">
                                 <div class="row no-gutters">
                                     <div class="col-3 text-center">
                                         <span class="fa fa-envelope-o"></span>
                                     </div>
                                     <div class="col-9 bottom">
                                         <span class="h5">
-                                            <a href="mailto:markovic_anka@yahoo.com">anka_mb@yahoo.com</a>
+                                            <a href="mailto:anka_mb@gmail.com">anka_mb@gmail.com</a>
                                         </span>
                                         <p class="mb-4">Personal</p>
                                         <span class="h5">
-                                            <a href="mailto:markovic_anka@yahoo.com">anka_mb@yahoo.com</a>
+                                            <a href="mailto:anka_mb@gmail.com">anka_mb@gmail.com</a>
                                         </span>
                                         <p>Work</p>
                                     </div>
                                 </div>
                             </article><!--ARTICLE EMAIL END-->
                             <!--ARTICLE ADDRESS START-->
-                            <article class="address">
+                            <article class="address animation" data-animation="slideRight">
                                 <div class="row no-gutters">
                                     <div class="col-3 text-center">
                                         <span class="fa fa-map-o"></span>
@@ -132,7 +146,7 @@
                                 </div>
                             </article><!--ARTICLE ADDRESS END-->
                             <!--ARTICLE SKILLS START-->
-                            <article class="skills">
+                            <article class="skills animation" data-animation="slideUp">
                                 <div class="row no-gutters">
                                     <div class="col-3 text-center">
                                         <span class="fa fa-calendar-o"></span>
@@ -163,7 +177,7 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <article class="mb-3 mb-md-5">
+                                        <article class="mb-4">
                                             <p>Java Script</p>
                                             <div class="skill">
                                                 <div class="achievement">
@@ -179,16 +193,16 @@
 
                     <div class="col-lg-7 col-xl-8  p-0 p-lg-3 p-xl-4">
                         <!--SECTION PROJECT START-->
-                        <section class="project mb-3">
+                        <section class="project mb-4">
                             <figure class="m-0">
                                 <img src="img/meal.jpg" alt=""/>
                             </figure>
-                            <div class="example1 p-3 p-lg-4">
+                            <div class="example1">
                                 <h2 class="text-white">Website Redesign</h2>
-                                <h4 class="text-white">branding, ui-ux, article</h4>
+                                <h4 class="text-white m-0">branding, ui-ux, article</h4>
                             </div>
-                            <div class="example-description p-3 p-lg-4">
-                                <p class="mb-3 mb-lg-4">Donec id elit non mi porta gravida at eget metus. 
+                            <div class="example-description">
+                                <p>Donec id elit non mi porta gravida at eget metus. 
                                     Duis mollis, est non commodo luctus, nisi erat 
                                     porttitor ligula, eget lacinia odio sem nec elit. 
                                     Praesent commodo cursus magna, vel scelerisque nisl 
@@ -196,7 +210,7 @@
                                     euismod semper. Etiam porta sem malesuada magna mollis 
                                     euismod.
                                 </p>
-                                <p class="mb-3 mb-lg-4">Donec id elit non mi porta gravida at eget metus. 
+                                <p>Donec id elit non mi porta gravida at eget metus. 
                                     Fusce dapibus, tellus ac cursus commodo, tortor 
                                     mauris condimentum nibh, ut fermentum massa 
                                     justo sit amet risus. Fusce dapibus, tellus 
@@ -215,24 +229,24 @@
                         </section><!--SECTION PROJECT END-->
                         
                         <!--SECTION COMMENTS START-->
-                        <section class="comments mb-3" style="background-color: #fafbfc">
-                            <div class="media p-3">
+                        <section class="comments mb-4" style="background-color: #fafbfc">
+                            <div class="media pb-0">
                                 <figure class="m-0">
                                     <img class="mr-3" src="img/reply.jpg" alt=""/>
                                 </figure>
                                 <div class="media-body">
-                                    <h3 class="mt-0">Jenny Doe</h3>
+                                    <h3>Jenny Doe</h3>
                                     <p class="small">February 18, 2015 at 2:56 pm</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                         sed do eiusmod tempor incididunt ut labore 
                                         et dolore magna aliqua. </p>
 
-                                    <div class="media mt-5">
+                                    <div class="media mt-4">
                                         <figure class="m-0 pr-3">
                                             <img src="img/reply2.png" alt=""/>
                                         </figure>
                                         <div class="media-body">
-                                            <h3 class="mt-0">Jenny Doe</h3>
+                                            <h3>Jenny Doe</h3>
                                             <p class="small">February 18, 2015 at 2:56 pm</p>
                                             <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                                 sed do eiusmod tempor incididunt ut labore 

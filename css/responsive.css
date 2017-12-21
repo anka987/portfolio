@@ -1,4 +1,8 @@
 @media(min-width:400px){
+    
+    .toggle-menu{
+        left: 60px;
+    }
 
     .picture .name h1{
         font-size: 50px;
@@ -7,6 +11,10 @@
 }
 
 @media(min-width:576px){
+    
+    .toggle-menu{
+        left: 70px;
+    }
 
     .picture .name h1{
         font-size: 70px;
@@ -46,14 +54,18 @@
 
 
 @media(min-width:992px){
+    
+    .toggle-menu{
+        left: 50px;
+    }
+    
+    .picture .name h1{
+        font-size: 50px;
+    }
 
     .comments img{
         width: 103px !important;
         height: 103px !important;
-    }
-
-    .picture .name h1{
-        font-size: 50px;
     }
 
 }
