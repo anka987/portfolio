@@ -66,7 +66,7 @@ $(document).ready(function () {
     });
 
     //Validacija forme - END
-    
+
     //animacija - START
 
     function animation() {
@@ -75,8 +75,24 @@ $(document).ready(function () {
         $('.animation').each(function () {
             var pozicija = $(this).offset().top;
             var animacija = $(this).attr('data-animation');
-            if (pozicija < scroll + windowHeight - 100) {
+            if (pozicija < scroll + windowHeight - 10) {
                 $(this).addClass(animacija);
+            }/*else{
+             $(this).removeClass(animacija);
+             }*/
+        });
+    }
+    
+    // animacija za skills
+    
+    function skill() {
+        var windowHeight = $(window).height();
+        var scroll = $(window).scrollTop();
+        $('.skill').each(function () {
+            var pozicija = $(this).offset().top;
+            var achievement = $(this).attr('data-skill');
+            if (pozicija < scroll + windowHeight - 10) {
+                $(this).find('.achievement').css('width', achievement + '%');
             }/*else{
              $(this).removeClass(animacija);
              }*/
@@ -84,10 +100,12 @@ $(document).ready(function () {
     }
 
     animation();
+    skill();
     $(window).scroll(function () {
         animation();
+        skill();
     });
-    
+
     //animacija - END
 
 });
