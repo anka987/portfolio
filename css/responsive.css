@@ -1,25 +1,25 @@
 @media(min-width:400px){
     
-    .toggle-menu{
-        left: 60px;
-    }
-
     .picture .name h1{
         font-size: 50px;
+    }
+    
+    .toggle-menu{
+        left: 60px;
     }
 
 }
 
 @media(min-width:576px){
     
-    .toggle-menu{
-        left: 70px;
-    }
-
     .picture .name h1{
         font-size: 70px;
     }
-
+    
+    .toggle-menu{
+        left: 70px;
+    }
+    
     .interests img{
         margin: auto;
         max-height: 60px;
@@ -55,12 +55,12 @@
 
 @media(min-width:992px){
     
-    .toggle-menu{
-        left: 50px;
-    }
-    
     .picture .name h1{
         font-size: 50px;
+    }
+    
+    .toggle-menu{
+        left: 50px;
     }
 
     .comments img{

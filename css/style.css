@@ -10,6 +10,14 @@ img{
     display: block;     
 }
 
+.small-padding{
+    margin: auto -10.5px;
+}
+
+.small-padding > * {
+    padding : 0 10.5px;
+}
+
 /****VERTICAL MENU START*****/
 
 .vertical{
@@ -86,7 +94,6 @@ img{
     color: #38a4dd;
 }
 /****VERTICAL MENU END*****/
-
 
 
 
@@ -362,47 +369,46 @@ img{
 
 
 /*3. PAGE START*/
-/*SECTION REDESIGN START*/
 
-.redesign .article-header h3 a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.redesign .article-header,
-.redesign .description{
-    padding: 15px;
-}
-
-.redesign article img{
+.portfolio a{
+    position: relative;
     display: block;
-    width: 100%;
-    transition: 0.5s linear;
 }
 
-.redesign article > a{
-    display: block;
+.portfolio a figure{
     overflow: hidden;
 }
 
-.redesign article > a:hover img{
-    transform: scale(1.1);
+.portfolio a img{
+    transition: 0.5s linear;
 }
 
-.redesign .description{
-    background-color: #fafbfc;
+.portfolio a:hover img{
+    transform: scale(1.2);
 }
 
-.redesign .description p{
-    line-height: 25px;
-    color: #737373;
+.portfolio a .hover{
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
 }
 
-.redesign .masonery{
+.portfolio a:hover .hover{
+    display: block;
+}
+
+.portfolio a h3,
+.portfolio a p{
     position: relative;
+    top: 30%;
 }
 
-/*SECTION REDESIGN END*/
 /*3. PAGE END*/
 
 
@@ -452,6 +458,53 @@ img{
 
 
 /*5. PAGE START*/
+/*SECTION REDESIGN START*/
+
+.redesign .article-header h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redesign .article-header,
+.redesign .description{
+    padding: 15px;
+}
+
+.redesign article img{
+    display: block;
+    width: 100%;
+    transition: 0.5s linear;
+}
+
+.redesign article > a{
+    display: block;
+    overflow: hidden;
+}
+
+.redesign article > a:hover img{
+    transform: scale(1.1);
+}
+
+.redesign .description{
+    background-color: #fafbfc;
+}
+
+.redesign .description p{
+    line-height: 25px;
+    color: #737373;
+}
+
+.redesign .masonery{
+    position: relative;
+}
+
+/*SECTION REDESIGN END*/
+/*5. PAGE END*/
+
+
+
+
+/*6. PAGE START*/
 /**SECTION FORM START**/
 
 .form{
@@ -481,7 +534,7 @@ img{
 }
 
 /**SECTION FORM END**/
-/*5. PAGE END*/
+/*6. PAGE END*/
 
 
 
