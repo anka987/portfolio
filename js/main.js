@@ -16,56 +16,6 @@ $(document).ready(function () {
 
     // END - toggle menu
 
-    //Validacija forme - START
-
-    $(function () {
-        $(".contact-form").validate({
-            highlight: function (element) {
-                $(element).closest('.form-group').addClass("has-danger");
-                $(element).addClass("form-control-danger");
-            },
-            unhighlight: function (element) {
-                $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
-                $(element).removeClass('form-control-danger').addClass('form-control-success');
-            },
-            rules: {
-                name: {
-                    required: true,
-                    rangelength: [2, 20]
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                message: {
-                    required: true,
-                    rangelength: [5, 50]
-                }
-
-            },
-            messages: {
-                name: {
-                    required: "The *Name field is required!",
-                    rangelength: "The *Name must be between 2 and 20 characters!"
-                },
-                email: {
-                    required: "The *Email field is required!",
-                    email: "Please, enter a valid email address!"
-                },
-                message: {
-                    required: "The *Message field is required!",
-                    minlength: "The *Message must be between 5 and 50 characters!"
-                }
-            },
-            errorElement: 'p',
-            errorPlacement: function (error, element) {
-                error.appendTo($(element).closest('.form-group').find('.error'));
-            }
-
-        });
-    });
-
-    //Validacija forme - END
 
     //animacija - START
 
@@ -82,9 +32,9 @@ $(document).ready(function () {
              }*/
         });
     }
-    
+
     // animacija za skills
-    
+
     function skill() {
         var windowHeight = $(window).height();
         var scroll = $(window).scrollTop();

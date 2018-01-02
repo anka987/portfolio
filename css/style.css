@@ -1,7 +1,10 @@
 /************GENERAL****************/
 
-html{
+*{
     font-family: 'Roboto', sans-serif;
+}
+
+html{
     font-size: 14px;
 }
 
@@ -380,7 +383,8 @@ img{
 }
 
 .portfolio a img{
-    transition: 0.5s linear;
+    width: 100%;
+    transition: 1s linear;
 }
 
 .portfolio a:hover img{
@@ -506,6 +510,10 @@ img{
 
 /*6. PAGE START*/
 /**SECTION FORM START**/
+
+.map #map{
+    border: 1px solid #000;
+}
 
 .form{
     padding: 15px;
