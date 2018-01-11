@@ -1,7 +1,7 @@
 /************GENERAL****************/
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html{
@@ -33,7 +33,7 @@ img{
 
 .toggle-menu{
     padding: 10px;
-    border: 2px solid #38a4dd;
+    border: 2px solid #946FB6;
     position: absolute;
     top: 10px;
     left: 50px;
@@ -44,7 +44,7 @@ img{
 .toggle-menu span{
     display: block;
     height: 2px;
-    background: #38a4dd;
+    background: #946FB6;
     margin-bottom: 3px;
     width: 20px;
 }
@@ -78,7 +78,7 @@ img{
 
 .menu .side-menu{
     height: 100vh;
-    background: #38a4dd;
+    background: #946FB6;
     padding: 20px;
     min-width: 200px;
 }
@@ -94,7 +94,7 @@ img{
 
 .menu .side-menu a:hover{
     background-color: #fff;
-    color: #38a4dd;
+    color: #946FB6;
 }
 /****VERTICAL MENU END*****/
 
@@ -102,6 +102,11 @@ img{
 
 /*1. PAGE START*/
 /**SECTION PICTURE START**/
+
+.picture,
+.info{
+    box-shadow: 0 0 5px #8C8C8C;
+}
 
 .picture figure img{
     width: 100%;
@@ -231,13 +236,25 @@ img{
 
 /** SECTION EXPERIENCE START**/
 
+.experience,
+.education,
+.interests,
+.social{
+    box-shadow: 0 0 5px #8C8C8C;
+}
+
+.experience h5,
+.education h5{
+    color: #946FB6;
+}
+
 .experience{
     color: #737373;
     padding: 15px;
 }
 
 .experience .work .col-10{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #808080;
 }
 
 .experience .work:last-of-type .col-10{
@@ -275,7 +292,7 @@ img{
 }
 
 .education .work .col-10{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #808080;
 }
 
 .education .work:last-of-type .col-10{
@@ -312,7 +329,7 @@ img{
 
 .social a{
     text-decoration: none;
-    color: #38a4dd;
+    color: #946FB6;
 }
 
 /** SECTION SOCIAL END**/
@@ -323,6 +340,11 @@ img{
 
 /*2. PAGE START*/
 /**SECTION COVER-LETTER START**/
+
+.cover-letter,
+.references{
+    box-shadow: 0 0 5px #8C8C8C;
+}
 
 .cover-letter{
     color: #636363;
@@ -358,11 +380,11 @@ img{
 }
 
 .references h6{
-    color: #38a4dd;
+    color: #946FB6;
 }
 
 .references .reference1 .col-10{
-    border-bottom: 1px solid #000; 
+    border-bottom: 1px solid #808080;
 }
 
 /**SECTION REFERENCES END**/
@@ -424,6 +446,12 @@ img{
 .project,
 .comments{
     color: #737373;
+}
+
+.project,
+.comments,
+.form{
+    box-shadow: 0 0 5px #8C8C8C;
 }
 
 .project figure img{
@@ -512,7 +540,7 @@ img{
 /**SECTION FORM START**/
 
 .map #map{
-    border: 1px solid #000;
+    border: 1px solid #818181;
 }
 
 .form{
@@ -531,14 +559,15 @@ img{
     background-color: #fafbfc;
 }
 
+
+
 .form input:focus{
     background-color: rgba(204,204,204,0.2);
-    box-shadow: 0 0 5px #38a4dd;
+    box-shadow: 0 0 5px #946FB6;
 }
 
 .form button{
-    background-color: #38a4dd;
-    transition: 1s linear;
+    background-color: #946FB6;
 }
 
 /**SECTION FORM END**/
@@ -546,7 +575,7 @@ img{
 
 
 
-/****ANIMACIJE START****/
+/****ANIMATIONS START****/
 .animation{
     visibility: hidden;
     position: relative;
@@ -600,7 +629,7 @@ img{
     visibility: visible;
     animation-duration: 1s;
 }
-/****ANIMACIJE END****/
+/****ANIMATIONS END****/
 
 
 
