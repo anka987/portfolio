@@ -395,6 +395,10 @@ img{
 
 /*3. PAGE START*/
 
+.portfolio{
+    overflow:hidden;
+}
+
 .portfolio a{
     position: relative;
     display: block;
@@ -459,7 +463,6 @@ img{
 }
 
 .project .example1{
-    background-color: #f15c5b;
     padding: 15px;
 }
 
@@ -491,6 +494,10 @@ img{
 
 /*5. PAGE START*/
 /*SECTION REDESIGN START*/
+
+.redesign{
+    overflow:hidden;
+}
 
 .redesign .article-header h3 a{
     text-decoration: none;
